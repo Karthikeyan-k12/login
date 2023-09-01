@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aleo&family=Alex+Brush&family=Bayon&family=Carter+One&family=Dancing+Script:wght@700&family=EB+Garamond:wght@600&family=Graduate&family=Great+Vibes&family=Inter:wght@300;400;600&family=Lobster&family=Lobster+Two:ital@1&family=Montserrat:wght@100;400&family=Oleo+Script&family=Open+Sans&family=Qwitcher+Grypen:wght@700&family=Shrikhand&family=Silkscreen&family=Uncial+Antiqua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aleo&family=Alex+Brush&family=Bayon&family=Carter+One&family=Dancing+Script:wght@700&family=EB+Garamond:wght@600&family=Graduate&family=Great+Vibes&family=Inter:wght@300;400;600&family=Lobster&family=Lobster+Two:ital@1&family=Montserrat:wght@100;400&family=Oleo+Script&family=Open+Sans&family=Qwitcher+Grypen:wght@700&family=Shrikhand&family=Silkscreen&family=Uncial+Antiqua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aleo&family=Alex+Brush&family=Bayon&family=Carter+One&family=Dancing+Script:wght@700&family=EB+Garamond:wght@600&family=Graduate&family=Great+Vibes&family=Inter:wght@300;400;600&family=Lobster&family=Lobster+Two:ital@1&family=Montserrat:wght@100;400&family=Oleo+Script&family=Open+Sans&family=Poppins:wght@500&family=Qwitcher+Grypen:wght@700&family=Shrikhand&family=Silkscreen&family=Uncial+Antiqua&display=swap");
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+.position {
+  padding-top: 10vh;
+}
+
+.screen {
+  height: 100vh;
+}
+
+form {
+  width: 50vh;
+}
+
+label {
+  color: #858585;
+  font-size: 0.875rem;
+}
+
+h5 {
+  font-family: Poppins;
+}
+.type {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: black;
+}
+
+.center-row{
+  padding-top: 25vh;
+}
+th{
+
+  font-size: 0.875rem;
+}
