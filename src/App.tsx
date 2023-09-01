@@ -26,6 +26,7 @@ const router = createBrowserRouter(
         path="/list"
         element={isAuthenticated ? <List /> : <Navigate to="/login" />}
       />
+      <Route path="/" element={<Register/>}/>
     </>
   )
 );

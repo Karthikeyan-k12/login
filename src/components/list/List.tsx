@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux/es/hooks/useSelector";
+import { Link } from "react-router-dom";
 
 const List = () => {
   const [data, setData] = useState([]);
@@ -15,6 +16,8 @@ const List = () => {
     <div className="container-fluid ">
       <div className="row center-row">
         <div className="container justify-content-center d-flex align-items-center">
+        
+
           <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h4 className="text-center mb-5">Registered Data's</h4>
           </div>
@@ -48,7 +51,9 @@ const List = () => {
                   </tr>
                 ))}
               </tbody>
+              
             </table>
+            <Link to={'/login'} className="btn btn-primary">Back</Link>
           </div>
         </div>
       </div>

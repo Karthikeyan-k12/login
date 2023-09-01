@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { loginUser } from "../../action/userAction";
 
 const Login = () => {
@@ -76,6 +76,7 @@ const Login = () => {
               <button type="submit" className="btn btn-primary w-100">
                 Login
               </button>
+              <p className="text-center pt-2">Click here to <Link  to={'/'}>Register</Link></p>
             </form>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 screen bg-info"></div>
