@@ -10,14 +10,17 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import Register from "./register/Register";
-import Login from "./login/Login";
-import List from "./list/List";
+import Register from "./components/register/Register";
+import Success from "./components/register/Success";
+import Login from "./components/login/Login";
+import List from "./components/list/List";
+
 const isAuthenticated = true;
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route index element={<Register />} />
+      <Route path="registered-successfully" element={<Success/>}/>
       <Route path="login" element={<Login />} />
       <Route
         path="/list"

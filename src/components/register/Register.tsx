@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { registerUser } from "../actions";
+import { registerUser } from "../../action/userAction";
 
 const Register = () => {
   const dispatch = useDispatch();
@@ -11,7 +11,7 @@ const Register = () => {
     email: "",
     password: "",
     gender: "male",
-    category: "1",
+    category: "General",
   });
 
   const handleInputChange = (e: any) => {
@@ -25,7 +25,7 @@ const Register = () => {
   const handleSubmit = (e: any) => {
     e.preventDefault();
     dispatch(registerUser(formData));
-    navigate("/login");
+    navigate("/registered-successfully");
   };
 
   return (
@@ -124,8 +124,8 @@ const Register = () => {
                 value={formData.category}
                 onChange={handleInputChange}
               >
-                <option value="1">General</option>
-                <option value="2">Two</option>
+                <option selected>General</option>
+                <option>Two</option>
                 <option value="3">Three</option>
               </select>
             </div>

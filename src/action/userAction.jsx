@@ -1,3 +1,4 @@
+
 export const registerUser = (userData) => {
   const existingUsers = JSON.parse(localStorage.getItem("registeredUsers")) || [];
   const updatedUsers = [...existingUsers, userData];
