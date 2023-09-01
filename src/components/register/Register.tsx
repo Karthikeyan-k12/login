@@ -125,8 +125,8 @@ const Register = () => {
                 onChange={handleInputChange}
               >
                 <option selected>General</option>
-                <option>Two</option>
-                <option value="3">Three</option>
+                <option>Developer</option>
+                
               </select>
             </div>
             <button type="submit" className="btn btn-primary w-100">
